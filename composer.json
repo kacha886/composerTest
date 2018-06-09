@@ -1,5 +1,5 @@
 {
-    "name": "yanlongma/push",
+    "name": "kacha886/push",
     "description": "Third party message push",
     "authors": [
         {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YanlongMa\\Push\\": "src/"
+            "kacha886\\Push\\": "src/"
         }
     }
 }
