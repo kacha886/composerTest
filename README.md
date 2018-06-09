@@ -7,7 +7,7 @@ Third party message push
 ## Install
 
 ```
-$ composer require yanlongma/push
+$ composer require kacha886/push
 ```
 
 ## Demo
@@ -23,13 +23,13 @@ $masterSecret = 'your-master-secret';
 $alert = 'Hi JPush!';
 $extras = [
     'type' => 1,
-    'url' => 'http://www.mayanlong.com'
+    'url' => 'http://www.kacha886.com'
 ];
 $platform = ['android', 'ios'];
 $audience = [
     'alias' => ['13888888888']
 ];
 
-$push = new YanlongMa\Push\JPush($appKey, $masterSecret);
+$push = new kacha886\Push\JPush($appKey, $masterSecret);
 $push->push($alert, $extras, $platform, $audience);
 ```
